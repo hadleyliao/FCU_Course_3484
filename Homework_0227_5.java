@@ -1,0 +1,21 @@
+/*
+請設計出一程式，從使用者得到一大於0的整數數字n，輸出1+2+3+...+n之結果，例如：輸入：5，輸出：15
+*/
+
+
+import java.util.Scanner;
+
+public class Homework_0227_5 {
+    public static void main(String[] args) {
+        int n;
+        Scanner sc = new Scanner(System.in);
+        n = sc.nextInt();
+
+        if(n>0){
+            int sum=n*(n+1)/2;
+            System.out.println(sum);
+        }else{
+            System.out.println("數字無效，請重新輸入");
+        }
+    }
+}
