@@ -7,9 +7,8 @@ import java.util.Scanner;
 
 public class Homework_0227_5 {
     public static void main(String[] args) {
-        int n;
         Scanner sc = new Scanner(System.in);
-        n = sc.nextInt();
+        int n = sc.nextInt();
 
         if(n>0){
             int sum=n*(n+1)/2;
