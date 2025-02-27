@@ -7,18 +7,18 @@
 import java.util.Scanner;
 public class Homework_0227_4 {
     public static void main(String[] args) {
-        int n;
-        Scanner sc = new Scanner(System.in);
-        n = sc.nextInt();
 
-        // 三元運算
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        // 用三元運算解
         // n%2==1 ? 奇數：偶數
         String result = (n%2==1) ? "奇數" : "偶數";
         System.out.println(result);
 
 
 
-        // if else
+        // 用if else解
         /*
         if(n%2==0){
             System.out.println("偶數");
