@@ -7,7 +7,6 @@
 import java.util.Scanner;
 public class Homework_0227_4 {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
@@ -15,7 +14,6 @@ public class Homework_0227_4 {
         // n%2==1 ? 奇數：偶數
         String result = (n%2==1) ? "奇數" : "偶數";
         System.out.println(result);
-
 
 
         // 用if else解
