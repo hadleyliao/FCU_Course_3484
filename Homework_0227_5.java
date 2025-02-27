@@ -4,7 +4,6 @@
 
 
 import java.util.Scanner;
-
 public class Homework_0227_5 {
     public static void main(String[] args) {
         System.out.print("請輸入大於0的整數:");

@@ -16,7 +16,6 @@ public class Homework_0227_4 {
         String result = (n%2==1) ? "奇數" : "偶數";
         System.out.println(result);
 
-
         // 用if else解
         /*
         if(n%2==0){
