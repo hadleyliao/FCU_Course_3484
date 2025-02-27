@@ -19,9 +19,9 @@ public class Homework_0227_1 {
         int x = sc.nextInt();
         if(x<999){
             int result1 = x/10 ;    // 只取商(10元有幾個)
-            int result2 = x%10 ;    // 取餘數往下運算
+            int result2 = x%10 ;    // 取餘數往下運算 => 這行沒用到
             int result3 = x%10/5;   // 只取商(5元有幾個)
-            int result4 = x%10%5;   // 取餘數往下運算
+            int result4 = x%10%5;   // 取餘數往下運算 => 這行沒用到
             int result5 = x%10%5/1; // 只取商(1元有幾個)
             System.out.print("10元=" + result1 + "個" + "，5元=" +result3 + "個" + "，1元=" + result5 + "個");
         }else{
