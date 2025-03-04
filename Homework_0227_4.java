@@ -13,8 +13,10 @@ public class Homework_0227_4 {
 
         // 用三元運算解
         // n%2==1 ? 奇數：偶數
-        String result = (n%2==1) ? "奇數" : "偶數";
-        System.out.println(result);
+        //String result = (n%2==1) ? "奇數" : "偶數";
+        //System.out.println(result);
+        // 老師說如果不用String的話，可以用什麼帶出字元？？？
+
 
         // 用if else解
         /*

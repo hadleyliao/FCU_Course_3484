@@ -20,13 +20,16 @@ public class Homework_0227_3 {
         int chicken;
         int rabbit;
 
-        if(feet%2==0){
-            rabbit=(feet/2)-head;
-            chicken=head-rabbit;
-            System.out.println("雞:" + chicken + "，兔:" + rabbit);
-        }
-        else{
+        if (head <= 0) {
             System.out.println("該數據無解");
+        } else {
+            if (feet % 2 == 0 & feet!=0 & feet>0 ) {
+                rabbit = (feet / 2) - head;
+                chicken = head - rabbit;
+                System.out.println("雞:" + chicken + "，兔:" + rabbit);
+            } else if(feet <= 0){
+                System.out.println("該數據無解");
+            }
         }
     }
 }
