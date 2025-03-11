@@ -1,3 +1,5 @@
+package Ch5;
+
 import java.util.Scanner;
 
 public class CheckOilElseIf {
