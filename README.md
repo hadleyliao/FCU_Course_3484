@@ -1,3 +1,4 @@
-Homework_0227 有５題
+Ch 是Textbookt：Java程式語言的每章節練習
 <br/>
-其餘的是每堂課每個ch的投影片練習
+Homework_0227 有5題
+Homework_0306 有2題
