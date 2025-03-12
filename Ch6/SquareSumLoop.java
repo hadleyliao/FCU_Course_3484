@@ -1,5 +1,5 @@
 package Ch6;
-
+// 以迴圈累加 1-10 的和平方
 public class SquareSumLoop {
     public static void main(String[] args) {
         int sum = 0;    // 儲存1-10平方和的sum

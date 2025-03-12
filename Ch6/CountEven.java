@@ -1,5 +1,5 @@
 package Ch6;
-
+// 利用 while 迴圈計算某範圍內的偶數和
 import java.io.*;
 
 public class CountEven {

@@ -1,5 +1,5 @@
 package Ch6;
-
+// 計算在某範圍內的所有其數和
 import java.util.Scanner;
 
 public class CountOdd {
