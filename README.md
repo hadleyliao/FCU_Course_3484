@@ -1,5 +1,8 @@
-Ch 是Textbookt：Java程式語言的每章節練習
+Ch：課本Java程式語言的每章節練習題
 <br/>
-Homework_0227 有5題
+CourseWork：隋堂練習題
 <br/>
-Homework_0306 有2題
+Homework：作業
+<br/>
+* _0227 有5題
+* _0306 有2題
