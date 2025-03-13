@@ -8,9 +8,10 @@ public class CountOdd {
         Scanner sc = new Scanner(System.in);
         int range = sc.nextInt();
 
-        int sum=0;
-        for(int i =1 ; i<=range ; i+=2){
-            sum +=i;
+        int sum = 0;
+        // for(初始運算式宣告int i=1；條件運算式i <= 使用者輸入的range；控制運算式每次到這個for迴圈i都要+2)
+        for(int i = 1 ; i <= range ; i += 2){
+            sum += i;   // 即sum=sum+i
         }
         System.out.println("1 到 "+range+" 的所有奇數和為 "+sum );
     }

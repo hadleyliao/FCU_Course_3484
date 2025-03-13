@@ -3,12 +3,11 @@ package Ch6;
 // 以下用 Count9x9 這支程式碼改用 continue 設計
 public class PartOf9x9 {
     public static void main(String[] args) {
-        outloop:
-        for (int x = 1; x <= 9; x++) {
+        outloop: for (int x = 1; x <= 9; x++) {
             for (int y = 1; y <= 9; y++) {
-                if (x * y > 25) {
-                    System.out.println();
-                    continue outloop;
+                if (x * y > 25) {           // 判斷(若乘績>25) 進到{}做迴圈的敘述
+                    System.out.println();   // println換行
+                    continue outloop;       // 跳到下一輪的 outloop 迴圈，即跳到第６行
                 }
                 System.out.print(x + "*" + y + "=" + x * y + "\t");
             }
