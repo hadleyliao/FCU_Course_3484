@@ -17,8 +17,8 @@ public class TextBook_6_28_03 {
         // 確保 num1 是較小的數，若不是則交換
         if (num1 > num2) {
             int temp = num1; // 宣告新變數，先把使用者原本輸入的 num1 放入 temp 中
-            num1 = num2; // 讓原本的 num2 賦值給 num1
-            num2 = temp; // 讓新變數 temp 賦值給 num2
+            num1 = num2; // 將原本的 num2 賦值給 num1
+            num2 = temp; // 將新變數 temp 賦值給 num2
         }
 
         int sum = 0;
