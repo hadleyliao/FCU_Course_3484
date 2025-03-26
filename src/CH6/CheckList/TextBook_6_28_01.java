@@ -2,7 +2,7 @@
 請寫一程式，可計算出 1 到 100 間所有 3 的倍數之總和
 */
 
-package CH6;
+package CH6.CheckList;
 
 public class TextBook_6_28_01 {
     public static void main(String[] args) {

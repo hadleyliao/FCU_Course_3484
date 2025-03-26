@@ -5,7 +5,7 @@
 *****
 */
 
-package CH6;
+package CH6.CheckList;
 
 import java.util.Scanner;
 

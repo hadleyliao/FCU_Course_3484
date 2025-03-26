@@ -1,4 +1,4 @@
-package CH6;
+package CH6.CheckList;
 
 public class Test_01 {
     public static void main(String[] args) {

@@ -2,7 +2,7 @@
 試寫一程式，讓使用者輸入兩個整數，並計算兩整數間所有整數的合
 */
 
-package CH6;
+package CH6.CheckList;
 
 import java.util.Scanner;
 
