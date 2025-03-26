@@ -15,6 +15,8 @@ public class SquareSumLoop {
 
 
 /*
+    for 迴圈執行順序 ➔ ① 初始運算式 ➔ ② 條件運算式 true/false來判斷 ➔ 下來做把{}裡的做完 ➔  再上去到 ③ 控制運算式
+
     1-1的平方何為：1
     1-2的平方何為：5
     1-3的平方何為：14
@@ -26,17 +28,17 @@ public class SquareSumLoop {
     1-9的平方何為：285
     1-10的平方何為：385
 
-    += 是加法賦值運算符，它的作用是將右邊的數值與左邊的變數相加，並將結果儲存在左邊的變數中。
+    += 是加法賦值運算符，它的作用是將右邊的數值與左邊的變數相加，並將結果“重新賦值”給左邊的變數中。
 
     variable += value;
     等同於
     variable = variable + value;
 
     int X = 5;
-    X += 2;  // 右＋左存於左。等同於 X = X + 2;
+    X += 2;  // 等於右＋左並將結果“重新賦值”給左。等同於 X = X + 2;
     System.out.println(X);  // 輸出：7
 
     int sum = 10;
-    sum += 5;  // 右＋左存於左。等同於 sum = sum + 5;
+    sum += 5;  // 等於右＋左並將結果“重新賦值”給左。等同於 sum = sum + 5;
     System.out.println(sum);  // 輸出：15
 */
