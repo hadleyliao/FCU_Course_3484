@@ -6,7 +6,7 @@ public class SquareSumLoop {
     public static void main(String[] args) {
         int sum = 0;    // 儲存1-10平方和的sum
         for (int i = 1; i <= 10; i++) {     // for(初始運算式;條件運算式;控制運算式)
-            sum += i * i; // 等同於sum = sum + (i * i);
+            sum += i * i; // 等同於sum = sum + (i * i); 注意：每次sum都是用最新結果的值，並非初始值。
             System.out.println("1-" + i + "的平方何為：" + sum);
         }
     }
