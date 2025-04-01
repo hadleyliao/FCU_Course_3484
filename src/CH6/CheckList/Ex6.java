@@ -27,11 +27,11 @@ public class Ex6 {
 
 
         //(d) 輸出抱錯 unreachable statement
-        int sum = 0;
-        for(int i=0;i<10;i++){
-            continue;
-            sum = sum + i;
-            System.out.println(sum);
+//        int sum = 0;
+//        for(int i=0;i<10;i++){
+//            continue;
+//            sum = sum + i;
+//            System.out.println(sum);
         }
     }
-}
+
