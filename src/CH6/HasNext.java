@@ -23,3 +23,8 @@ public class HasNext {
         System.out.println("1到 "+ range +" 的所有奇數和為" +sum);
     }
 }
+
+/*
+請輸入欲計算得奇數和範圍（結尾數值）5
+1到 5 的所有奇數和為9
+*/

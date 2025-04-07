@@ -20,7 +20,6 @@ public class ArrayAvrtage {
     }
 }
 
-
 /*
 平平均成績：81.0
 */
